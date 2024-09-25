@@ -1,6 +1,6 @@
 {
-  "name": "agendash",
-  "version": "4.0.0",
+  "name": "@cawstudios/agendash",
+  "version": "1.0.0",
   "description": "A modern dashboard for Agenda.js with Pagination and Search capabilities",
   "main": "app.js",
   "bin": "bin/agendash-standalone.js",
@@ -20,12 +20,11 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/agenda/agendash.git"
+    "url": "https://github.com/cawstudios/caw-agenda-dashboard"
   },
   "bugs": {
-    "url": "https://github.com/agenda/agendash/issues"
+    "url": "https://github.com/cawstudios/caw-agenda-dashboard/issues"
   },
-  "homepage": "https://github.com/agenda/agendash#readme",
   "license": "MIT",
   "files": [
     "bin",
@@ -37,6 +36,7 @@
     "entrypoint.sh"
   ],
   "dependencies": {
+    "@cawstudios/agenda": "^1.0.0",
     "agenda": "^4.2.1",
     "body-parser": "^1.19.2",
     "commander": "^2.9.0",
